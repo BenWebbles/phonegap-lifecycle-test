@@ -1,4 +1,4 @@
-var paused_count =0;
+/*var paused_count =0;
 var resumed_count = 0;
 var launched_count = 0;
 
@@ -39,3 +39,4 @@ var launched_count = 0;
 		resumed_count++;
 		updateDisplay();
     }
+*/
