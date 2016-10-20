@@ -1,10 +1,11 @@
 var key = "pen";
-var value = window.localStorage.getItem(key);
+var value = "black";
+var get = window.localStorage.getItem(key);
 
     function onLoad() {
-        window.localStorage.setItem(key, "black");
+        window.localStorage.setItem(key, value);
 		console.log("on load");
-		window.alert(key);
+		window.alert(get);
 	}
 	
 	
