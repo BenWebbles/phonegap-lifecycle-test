@@ -13,7 +13,7 @@ var value = "black";
     function onDeviceReady() {
 		window.localStorage.getItem(key);
 		console.log("getting item");
+		window.alert(key);
        
-
     }
 
