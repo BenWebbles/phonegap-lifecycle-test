@@ -17,5 +17,6 @@
 var key = "pen";
 var value = "black";
 
-window.localStorage.setItem( key, value );
+window.localStorage.setItem(key, value);
 
+window.localStorage.getItem(key);
