@@ -1,4 +1,4 @@
-var key = "pen";
+/*var key = "pen";
 var value = "black";
 var get = window.localStorage.getItem(key);
 
@@ -18,7 +18,22 @@ var get = window.localStorage.getItem(key);
 		console.log("device ready");
 
     }
+*/
+var chocolate = {
+	"chocName": "Fudge",
+	"overview": {
+		"chocCal": "114kcal"
+		"chocFat": "3.4g"
+		"chocSalt": "0.10g"
+	}
+	
+}
 
-
-
+function onLoad() {
+	console.log(
+		chocolate.chocName +
+		"has "+
+		chocCal +
+		"amount of calories per bar!");
+}
 
