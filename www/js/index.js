@@ -29,6 +29,9 @@ var chocolate = {
 	
 }
 
+var chocString = JSON.stringify(chocolate);
+window.localStorage.setItem("address", chocString)
+
 function onLoad() {
 	console.log(
 		chocolate.chocName +
