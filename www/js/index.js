@@ -1,9 +1,9 @@
 var key = "pen";
-var value = "black";
+var value = window.localStorage.getItem(key);
 
     function onLoad() {
         window.localStorage.setItem(key, value);
-		console.log("setting item");
+		console.log("on load");
     }
 	
 
@@ -11,9 +11,11 @@ var value = "black";
     // device APIs are available
     //
     function onDeviceReady() {
-		window.localStorage.getItem(key);
-		console.log("getting item");
-		window.alert(key);
-       
+		window.alert(value);
+		console.log("device ready");
+
     }
+
+
+
 
