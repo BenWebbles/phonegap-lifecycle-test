@@ -14,14 +14,14 @@
 </head>
 
 <body onload="onLoad()">
-	
-<div data-role="page" id="pageone">
-   <div data-role="panel" id="myPanel">
+
+<div data-role="panel" id="myPanel">
     <h2>Panel Header</h2>
     <p>You can close the panel by clicking outside the panel, pressing the Esc key or by swiping.</p>
 	<img src="patrick.png" alt="patrick" height="200" width="200">
 	</div>
-
+	
+<div data-role="page" id="pageone">
   <div data-role="header" data-position="fixed">
 	<h1>Spicy MayMays</h1>
   </div>
@@ -46,6 +46,7 @@
 
   <div data-role="main" class="ui-content">
     <p>Which page am I?</p>
+	<a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Open Panel</a>
   </div>
 
   <div data-role="footer" data-position="fixed">
@@ -63,6 +64,7 @@
 
   <div data-role="main" class="ui-content">
     <p>Halloweiners.</p>
+	<a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Open Panel</a>
   </div>
 
   <div data-role="footer" data-position="fixed">
