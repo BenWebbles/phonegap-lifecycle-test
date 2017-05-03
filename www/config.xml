@@ -6,10 +6,10 @@
         id        = "com.phonegap.helloworld"
         version   = "1.0.0">
 
-    <name>Assignment App</name>
+    <name>Poo</name>
 
     <description>
-        An app I made for my Assignment.
+       Poo
     </description>
 
     <preference name="permissions"                value="none"/>   
