@@ -19,12 +19,12 @@
 			console.log(itemsToShow);
 			var items = {};
 			for(var i=0; i < itemsToShow; i++){
-				items[i] = 'ITEM ' + (i+1);
+				items[i] = 'Exercise ' + (i+1);
 			}
 		  $('#canvas').rouletteWheel({
 		    items : items,
 		    selected : function(key, value){
-		      alert('SELECTED : ' + key + ' => ' + value);
+		      alert('Selected => ' + value);
 		    },
 		    spinText : 'Click Me',
 		  });
